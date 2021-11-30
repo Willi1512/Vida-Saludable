@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: letra1;
+    src: url(/Fuente/WhiteDreamPERSONALUSEONLY-Regular.otf);
+}
+
+@font-face {
+    font-family: letra2;
+    src: url(/Fuente/market_deco/Market_Deco.ttf);
+}
+
+@font-face {
+    font-family: letra3;
+    src: url(/Fuente/greconian/Greconian.ttf);
+}
+
+body{
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url(/Imgenes/1.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: rgb(100, 100, 100);
+    background-blend-mode: soft-light;
+
+}
+
+.header{
+    background: green;
+    color: white;
+    width: 100%;
+    height: 200px;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: letra2;
+}
+
+.header h1{
+    font-family: letra2;
+    font-size: 4em;
+    -webkit-text-stroke: 1px white;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.container-fondo h1{
+    background-color: green;
+    color: white;
+    font-family: letra2;
+    width: 300px;
+    height: 115px;
+    font-size: 3em;
+    text-align: center;
+}
+
+.container-fondo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 300px;
+    height: auto;
+    margin-bottom: 100px;
+    flex-direction: column;
+    padding: 30px;
+}
+
+a{
+    color: white;
+}
+
+p{
+    justify-content: center;
+    font-family: letra2;
+    font-size: 4em;
+    text-align: center;
+    margin: 50px;
+    padding: 30px;
+    color: white;
+}
+
+.promo h1{
+    background-color: green;
+    color: white;
+    font-family: letra2;
+    width: 300px;
+    height: 200px;
+    font-size: 3em;
+    text-align: center;
+}
+
+.promo{
+    padding: 50px;
+}
